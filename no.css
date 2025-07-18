@@ -3,33 +3,33 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fce4ec; /* Rosa muy pálido, casi blanco */
+    background-color: #fce4ec; 
     color: #333;
-    /* --- Novedad: Fondo con patrón de flores suave --- */
-    background-image: url('https://www.transparenttextures.com/patterns/fabric-of-squares.png'); /* Puedes cambiar esta URL por una imagen de flores más adecuada */
+    
+    background-image: url('https://www.transparenttextures.com/patterns/fabric-of-squares.png'); 
     background-repeat: repeat;
-    background-size: 150px; /* Ajusta el tamaño de la repetición del patrón */
+    background-size: 150px; 
 }
 
 header {
-    background-color: #f06292; /* Rosa más vibrante para el encabezado */
+    background-color: #f06292; 
     color: white;
-    padding: 2rem 0; /* Más padding para que se vea más grande */
+    padding: 2rem 0; 
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    /* --- Novedad: Borde inferior con un toque floral si lo deseas --- */
-    border-bottom: 5px solid #d81b60; /* Rojo frambuesa para un contraste sutil */
-    position: relative; /* Necesario para pseudoelementos */
-    overflow: hidden; /* Para que los pseudoelementos no se salgan */
+ 
+    border-bottom: 5px solid #d81b60;
+    position: relative; 
+    overflow: hidden; 
 }
 
-/* --- Novedad: Elementos decorativos en el header --- */
+
 header::before, header::after {
-    content: '💖'; /* Un corazón, puedes cambiarlo por '🌸', '✨' o cualquier emoji */
+    content: '💖'; 
     position: absolute;
     font-size: 3em;
     opacity: 0.5;
-    animation: bounce 2s infinite alternate; /* Pequeña animación */
+    animation: bounce 2s infinite alternate; 
 }
 
 header::before {
@@ -52,24 +52,24 @@ header::after {
 
 header h1 {
     margin: 0;
-    font-size: 3.2em; /* Título un poco más grande */
+    font-size: 3.2em; 
     letter-spacing: 3px;
-    font-family: 'Georgia', serif; /* O una fuente más romántica si la importas */
+    font-family: 'Georgia', serif; 
 }
 
 header p {
     font-size: 1.3em;
     font-style: italic;
-    font-weight: bold; /* Hacer la descripción un poco más destacada */
+    font-weight: bold; 
 }
 
 main {
-    padding: 30px; /* Más espacio interno */
+    padding: 30px; 
     max-width: 1000px;
-    margin: 30px auto; /* Más margen para separar del borde */
+    margin: 30px auto; 
     background-color: #fff;
-    border-radius: 15px; /* Bordes más redondeados */
-    box-shadow: 0 0 20px rgba(0,0,0,0.15); /* Sombra más pronunciada */
+    border-radius: 15px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.15); 
 }
 
 .section-container {
@@ -78,14 +78,14 @@ main {
 }
 
 .section-container h2 {
-    color: #e91e63; /* Rosa oscuro, fuerte y romántico */
-    font-size: 2.6em; /* Títulos de sección más grandes */
+    color: #e91e63; 
+    font-size: 2.6em; 
     margin-bottom: 30px;
-    border-bottom: 3px solid #ff80ab; /* Rosa suave para el borde */
+    border-bottom: 3px solid #ff80ab; 
     display: inline-block;
     padding-bottom: 12px;
-    font-family: 'Georgia', serif; /* O una fuente más romántica */
-    /* --- Novedad: Sutil sombra en el texto del título --- */
+    font-family: 'Georgia', serif; 
+    
     text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
@@ -94,7 +94,7 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 40px; /* Más espacio entre elementos */
+    gap: 40px; 
     margin-bottom: 40px;
     text-align: left;
 }
@@ -106,9 +106,9 @@ main {
 .text-content {
     flex: 2;
     min-width: 320px;
-    padding: 10px; /* Pequeño padding interno */
-    line-height: 1.8; /* Más espacio entre líneas para mejor lectura */
-    font-size: 1.1em; /* Texto un poco más grande */
+    padding: 10px; 
+    line-height: 1.8; 
+    font-size: 1.1em; 
 }
 
 .text-content p {
@@ -116,7 +116,7 @@ main {
 }
 
 .text-content ul {
-    list-style-type: '🌹 '; /* --- Novedad: Viñetas de rosa --- */
+    list-style-type: '🌹 '; 
     padding-left: 25px;
 }
 
@@ -133,10 +133,10 @@ main {
 .image-content img {
     max-width: 100%;
     height: auto;
-    border-radius: 12px; /* Bordes más redondeados */
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Sombra más pronunciada */
+    border-radius: 12px; 
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2); 
     transition: transform 0.4s ease, box-shadow 0.4s ease;
-    border: 3px solid #ffcdd2; /* --- Novedad: Borde suave alrededor de las imágenes --- */
+    border: 3px solid #ffcdd2; 
 }
 
 .image-content img:hover {
@@ -154,7 +154,7 @@ main {
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px; /* Más espacio entre las imágenes de la galería */
+    gap: 25px; 
     margin-top: 35px;
     justify-items: center;
 }
@@ -164,44 +164,44 @@ main {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    padding: 20px; /* Más padding */
+    padding: 20px; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 2px solid #f8bbd0; /* --- Novedad: Borde suave en los ítems de la galería --- */
+    border: 2px solid #f8bbd0; 
 }
 
 .gallery-item:hover {
-    transform: translateY(-8px); /* Más elevación */
+    transform: translateY(-8px); 
     box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
 .gallery-item img {
     max-width: 100%;
-    height: 200px; /* Altura un poco mayor para las imágenes de la galería */
+    height: 200px; 
     object-fit: cover;
-    border-radius: 8px; /* Bordes más redondeados */
+    border-radius: 8px; 
     margin-bottom: 12px;
 }
 
 hr {
     border: none;
-    border-top: 2px dotted #ff80ab; /* Línea divisoria más visible y punteada */
-    margin: 50px auto; /* Más margen */
-    width: 70%; /* Ancho un poco más reducido */
+    border-top: 2px dotted #ff80ab; 
+    margin: 50px auto; 
+    width: 70%; 
 }
 
 footer {
     text-align: center;
-    padding: 25px; /* Más padding */
+    padding: 25px; 
     margin-top: 40px;
-    background-color: #f06292; /* Mismo rosa que el header */
+    background-color: #f06292; 
     color: white;
     font-size: 1em;
     font-weight: 500;
-    border-top-left-radius: 10px; /* Bordes redondeados en el footer */
+    border-top-left-radius: 10px; 
     border-top-right-radius: 10px;
 }
 
-/* Media Queries para responsividad */
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.5em;
@@ -224,7 +224,7 @@ footer {
         width: 100%;
     }
 
-    /* Ocultar elementos decorativos en pantallas muy pequeñas si estorban */
+    
     header::before, header::after {
         font-size: 2em;
     }
@@ -241,6 +241,6 @@ footer {
         font-size: 1.6em;
     }
     .gallery-item img {
-        height: 150px; /* Reducir altura de la galería en móviles pequeños */
+        height: 150px; 
     }
 }
